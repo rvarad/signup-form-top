@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;padding: 0;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh; 
+    width: 100vw;
+}
+
+.imagesection{
+    background-image: url(./tasos-mansour-JreKK_t1Ycc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40vw;
+}
+
+.branding{
+    padding: 15px 0px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.301);
+    justify-content: center;
+    gap: 1vw;
+    position: relative;
+    top: 35vh;
+}
+
+#logo{
+    width: 100px;
+}
+
+.container{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.branding h1{
+    font-size: 3rem;
+    align-self: center;
+    /* color: rgb(219, 101, 243); */
+}
+
+#imgcredit{
+    text-align: right;
+    position: relative;
+    top: 70vh;
+    font-size: small;
+}
+
+.formsection{
+    background-color: rgb(0, 0, 0);
+    /* color: rgba(255, 255, 255, 0.521); */
+    color: rgb(155, 144, 144);
+    width: 60vw;
+}
+
+.text p{
+    font-size: 20px;
+    padding: 50px 30px 20px 30px;
+}
+
+fieldset{
+    box-sizing: content-box;
+    width: 100%;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    /* box-shadow: 0px 3px 10px -1px #512728; */
+    box-shadow: 0 10px 20px -2px #512728;
+}
+
+.datainputs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    background-color: #0b0a0a;
+}
+
+fieldset h3{
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input{
+    width: 25vw;
+    margin: 10px 20px 10px 0px;
+}
+
+label{
+    font-size: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"]{
+    box-sizing: content-box;
+    height: 25px;
+    width: 90%;
+    background-color: rgb(40, 45, 49);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input:focus:valid{
+    box-shadow: 0px 5px 3px green;
+    background-color: rgb(40, 45, 49);
+}
+
+input:valid{
+    background-color: rgb(40, 45, 49);
+}
+
+input:focus:invalid{
+    border: 1px dotted red;
+    box-shadow: 0px 5px 3px red;
+    background-color: rgb(40, 45, 49);
+}
+
+input:invalid{
+    border: 1px dotted red;
+    box-shadow: 0px 5px 3px red;
+    background-color: rgb(40, 45, 49);
+}
+
+button{
+    margin: 20px 30px;
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: black;
+    /* border: 3px solid #e6007e; */
+    border: 3px solid rgb(253, 126, 100);
+    border-radius: 15px;
+    color: rgb(253, 126, 100);
+}
+
+button:hover{
+    color: black;
+    background-color: rgb(253, 126, 100);
+}
+
+#secondop{
+    margin-left: 30px;
+    font-size: small;
+}
