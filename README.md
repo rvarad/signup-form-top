@@ -4,4 +4,4 @@ This project is a part of **THE ODIN PROJECT**. The task was to create a sign-up
 
 Languages used : ***HTML, CSS***
 
-## Live : [Sign up](rvarad.github.io/signup-form-top/)
+## Live : [Sign up](https://rvarad.github.io/signup-form-top/)
